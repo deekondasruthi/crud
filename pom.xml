@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>BasicCurd</name>
 	<description>Curd project for Spring Boot</description>
 	<url/>
