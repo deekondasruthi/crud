@@ -8,7 +8,7 @@ RUN mkdir /opt/tomcat
 RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.tar.gz -O /tmp/apache-tomcat-9.0.91.tar.gz && \
     tar xvzf /tmp/apache-tomcat-9.0.91.tar.gz -C /opt/tomcat --strip-components=1
 
-RUN rm -rf /opt/tomcat/webapps/*
+RUN rm -rf /opt/tomcat/webapps/ROOT
 
 COPY target/ROOT.war /opt/tomcat/webapps/
 
